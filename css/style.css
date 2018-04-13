@@ -222,7 +222,9 @@ section#benefits .container .left .text h2{
 
 section#benefits .container .left .text .plus{
     margin-top: -50px;
-    position: absolute;
+    margin-right: 50px;
+    float: right;
+    position: relative;
 }
 
 
@@ -417,13 +419,13 @@ footer .footerLast .footerOptions li a{
 
 
 
-@media (max-width: 1220px) {
+@media (max-width: 1200px) {
     section#benefits .container .right li .text{
         margin-right: 20px;
     }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 980px) {
     .container{
         overflow: hidden
     }
@@ -453,7 +455,6 @@ footer .footerLast .footerOptions li a{
         width: 100%;        
         text-align: center;
     }
-    
     section#experience{
         margin-top: 350px;
     }
@@ -533,3 +534,123 @@ footer .footerLast .footerOptions li a{
     }
     
 }
+
+
+    
+@media (max-width: 590px){
+    header{
+        margin-bottom: -200px;
+    }
+    
+    header .container h1{
+        margin: 10px 0px 0px 10px;
+    }
+    
+    header nav ul{
+        margin: 0;
+    }
+    
+    header nav li{
+        margin: 0px 5px 0px 5px;
+    }
+    
+    header nav li:last-child{
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    
+    
+    section#hosts .container .video{
+        width: 90%;        
+        text-align: center;
+        margin-left: 5px;
+    }
+    
+    
+    section#experience{
+        margin-top: 450px;
+    }
+    
+    
+    
+    section#benefits .container .left{
+        width: 100%;
+    }
+    section#benefits .container .left .image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    section#benefits .container .left .text .plus{
+        visibility: hidden
+    }
+    
+    section#benefits .container .left .text h2{
+        margin: 0 auto;
+        margin-left: 20px;
+        width: 90%;
+        float: left;
+    }
+
+    section#benefits .container .right{
+        width: 100%;
+    }
+    
+    
+    
+    
+    
+    
+    section#create {
+        margin-top: 110px;
+        margin-bottom: 110px;
+    }
+
+    section#create .container .howto{
+        text-align: center;
+    }
+
+    section#create .container .howto h2{
+        width: 90%;
+        color: #4c4c51;
+    }
+    section#create .container .howto p{
+        width: 90%;
+    }
+
+    section#create .container .howto .start select{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    section#create .container .howto .start .button{
+        width: 80%;
+    }
+
+    
+    
+    
+    
+    footer .footerLists{
+    width: 100%;
+    }
+
+
+    footer .footerLists ul{
+        padding-right: 0;
+    }
+
+
+    footer .footerLists li{
+        list-style-type: none;
+        width: 90%;
+        margin-bottom: 5px
+    }
+
+    footer .footerLists li a{
+        color: #88939e;
+        opacity: 0.9;
+        text-decoration: none;
+    }
+}
+    
